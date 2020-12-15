@@ -1,6 +1,24 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <script type="text/javascript" src="script.js"></script>
+        <link rel="stylesheet" href="style.css">
     </head>
+
+    <body>
+        <div id="game-container">
+            <div id="game-buttons">
+                <button id="rock" class="game-button">ROCK</button>
+                <button id="paper" class="game-button">PAPER</button>
+                <button id="scissors" class="game-button">SCISSORS</button>
+            </div>
+            <h3 id="game-round-result" class="game-text">round result</h3>
+            <h3 id="game-score" class="game-text">
+                <p id="game-score-human" class="game-score-text">0</p>
+                <p id="game-score-divisor" class="game-score-text">-</p>
+                <p id="game-score-computer" class="game-score-text">0</p>
+            </h3>
+            <h3 id="game-result" class="game-text">game result</h3>
+        </div>
+        <script type="text/javascript" src="script.js"></script>
+    </body>
 </html>
